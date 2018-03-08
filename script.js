@@ -15,6 +15,7 @@ function onSignIn(googleUser) {
       $(".g-signin2").css("display" , "block");
       $("#info").css("display" , "none");
     });
+  }
 /*
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
