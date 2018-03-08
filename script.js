@@ -1,4 +1,4 @@
-/*
+
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     $("#info").css('display',"block");
@@ -15,7 +15,7 @@ function onSignIn(googleUser) {
       $(".g-signin2").css("display" , "block");
       $("#info").css("display" , "none");
     });
-*/
+/*
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
@@ -30,3 +30,4 @@ function signOut() {
     });
   }
 }
+*/
